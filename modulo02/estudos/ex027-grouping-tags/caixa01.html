@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Grouping tags</title>
+  </head>
+  <body>
+    <!-- é usado para definir o cabeçalho de uma página ou de uma seção. Geralmente, contém o logotipo, o menu de navegação, ou o título da página.-->
+    <header>
+      <h1>Página 1</h1>
+      <!-- é usada para definir um conjunto de links de navegação. Pode estar dentro do <header> ou em outro lugar da página. -->
+      <nav>
+        <a href="#">Menu</a>
+        <a href="#">Contatos</a>
+        <a href="#">Redes Sociais</a>
+        <a href="#">Mapa</a>
+        <a href="#">Conteúdos</a>
+      </nav>
+    </header>
+    <!-- representa o conteúdo principal da página. Deve conter o conteúdo único e central da página, ou seja, aquilo que é específico para essa página em particular. -->
+    <main>
+      <!-- é usada para agrupar conteúdos relacionados. Pode ser vista como um "capítulo" de um livro. Dica: Use <section> quando fizer sentido dividir o conteúdo em partes distintas, mas que pertencem ao mesmo contexto. -->
+      <section id="assuntos">
+        <!-- é utilizado para conteúdos independentes e autocontidos, como posts de blog, artigos de notícias, ou publicações de redes sociais. Dica: O conteúdo dentro de <article> deve fazer sentido mesmo se for exibido fora da página (como um post de blog no feed). -->
+        <article>
+          <h2>Assuntos do momento</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            harum eveniet consequatur vero magni quisquam molestias laudantium
+            iusto quod repellat repudiandae, alias labore corporis nostrum
+            facere doloribus voluptatum expedita perferendis!
+          </p>
+        </article>
+      </section>
+
+      <section id="noticias">
+        <article>
+          <h2>Notícias de hoje</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+            magnam labore voluptatum at excepturi. Culpa recusandae iusto
+            tempore ex tempora in odio quaerat! Quod ipsam ex architecto
+            corrupti in voluptate.
+          </p>
+          <!-- é usado para conteúdo que é "secundário" ou de apoio. É aquele conteúdo que não é o foco principal da página, como uma barra lateral, um anúncio ou uma caixa de informações. -->
+          <aside>
+            <p id="right">Artigo escrito por William</p>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <img src="imgs/criando-borda.png" alt="">
+    <img src="imgs/box-sizing.png" alt="">
+    <!-- representa o rodapé da página ou de uma seção. Normalmente, contém informações de copyright, links de contato, ou créditos. -->
+    <footer>Desenvolvido por William</footer>
+    <div id="bola"></div>
+  </body>
+</html>

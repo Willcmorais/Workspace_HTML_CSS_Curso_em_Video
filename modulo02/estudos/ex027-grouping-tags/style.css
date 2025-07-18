@@ -1,0 +1,78 @@
+@charset "utf8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: dimgrey;
+}
+
+img {
+  width: 500px;
+  padding: 10px;
+  display: block;
+  margin: auto;
+}
+
+header {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav {
+  background-color: rgb(137, 121, 102);
+  padding: 5px;
+  /* deslocamento lateral, cima e baixo, espalhamento e cor. valores negativos deslocam para a esquerda e para cima, positivos para a direita e para baixo. */
+  /* Se colocarmos o "inset" a sombra fica para dentro da box */
+  box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.388);
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 185px;
+}
+
+nav > a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  /* arredondamento das bordas. Ou, podemos configurar com a shorthand igual aos outros. */
+  border-radius: 5px 30px;
+  box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.258);
+}
+
+article {
+  background-color: lightgrey;
+  padding: 10px;
+  text-align: justify;
+}
+
+article > aside {
+  background-color: rgb(157, 157, 157);
+  width: 195px;
+  height: 20px;
+  text-align: center;
+  margin-left: 1090px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  margin: 0px;
+}
+
+div#bola {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 10px;
+  /* podia ser tb 50% */
+  border-radius: 50px;
+}
